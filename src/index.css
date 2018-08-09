@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(228, 226, 226);
+    background: url("res/diagonal_striped_brick.png");
+    background-repeat: repeat;
     margin-left: 10px;
     margin-right: 10px;
 }
