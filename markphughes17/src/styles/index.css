@@ -1,0 +1,39 @@
+body {
+    background: url("../res/webb.png");
+    background-repeat: repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1, h2, p, ul, li {
+    font-family: sans-serif;
+}
+ul.header {
+    background-color: lightgray;
+    padding: 0;
+    margin-top: -10px;
+    opacity: 0.7;
+    border-radius: 15px;
+}
+ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+ul.header li a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 15px;
+}
+.social-img {
+    height: 30px;
+    width: 30px;
+}
+
+.social-img:hover {
+    height: 45px;
+    width: 45px;
+}
