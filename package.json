@@ -1,4 +1,5 @@
 {
+  "homepage": "https://markphughes17.github.io/",
   "name": "markphughes17",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -54,6 +57,7 @@
     "@storybook/addon-links": "^6.3.8",
     "@storybook/node-logger": "^6.3.8",
     "@storybook/preset-create-react-app": "^3.2.0",
-    "@storybook/react": "^6.3.8"
+    "@storybook/react": "^6.3.8",
+    "gh-pages": "^3.2.3"
   }
 }
