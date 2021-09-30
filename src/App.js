@@ -10,7 +10,7 @@ import Contact from "./components/Contact";
 class App extends Component {
     render() {
         return (
-            <BrowserRouter>
+            <HashRouter>
                 <div>
                     <ul className="header">
                     <li><NavLink exact to="/">Home</NavLink></li>
@@ -21,7 +21,7 @@ class App extends Component {
                     <Route exact path="/" component={Home} />
                     <Route path="/contact" component={Contact} />
                 </div>
-            </BrowserRouter>
+            </HashRouter>
         )
     }
 }
