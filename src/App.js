@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {
     Route,
     NavLink,
-    BrowserRouter
+    HashRouter
 } from "react-router-dom";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
