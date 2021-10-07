@@ -5,6 +5,7 @@ class Home extends Component {
         return (
             <section>
                 <P>WIP</P>
+                <p>TODO</p>
             
 
             </section>
