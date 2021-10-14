@@ -37,3 +37,8 @@ ul.header li a {
     height: 45px;
     width: 45px;
 }
+
+.album-img {
+    height: 500px;
+    width: auto;
+}
